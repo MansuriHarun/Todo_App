@@ -13,10 +13,10 @@ Before running the ToDo App, ensure you have the following software installed on
 ```bash
 git clone <repository-url>
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 cd Todo_App
 
-4. Install the dependencies using npm:
+3. Install the dependencies using npm:
 npm install
 
 ## Technologies Used
