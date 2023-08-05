@@ -10,8 +10,7 @@ Before running the ToDo App, ensure you have the following software installed on
 
 1. Clone the repository from GitHub:
 
-2. ```bash
-git clone <repository-url>
+2. ```bash git clone <repository-url>
 
 3. Navigate to the project directory:
 cd Todo_App
