@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="style.css")
+        title To-Do-List 
+    body 
+        include ./partials/header
+
+        div(class="container")
+            div(class="newtask")
+                form(action="/add/todo" method="POST")
+                    input(type="text", name="todo", placeholder="Enter your todo", class="search")
+                    input(type="submit", value="Add todo", id="push")
+
+                ul
+                    each todos in todo
+                        li(class="task")= todos.todo
+                        a(href=`/delete/todo/${todos.id}`) Delete
