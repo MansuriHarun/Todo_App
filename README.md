@@ -1,5 +1,5 @@
 # Todo_App
-The ToDo App is a simple web application built using Node.js, Express, MongoDB, and Pug (formerly known as Jade). This application allows users to manage their daily tasks by creating, updating, and marking tasks as completed.
+The Todo App is a simple web application built using Node.js, Express, MongoDB, and Pug (formerly known as Jade). This application allows users to manage their daily tasks by creating, updating, and marking tasks as completed.
 
 ## Prerequisites
 Before running the ToDo App, ensure you have the following software installed on your system:
